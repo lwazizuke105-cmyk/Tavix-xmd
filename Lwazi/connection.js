@@ -19,11 +19,11 @@ const fecth = require('node-fetch');
 const ffmpeg = require("fluent-ffmpeg");
 const ffmpegPath = require("ffmpeg-static");
 ffmpeg.setFfmpegPath(ffmpegPath);
-const antiDeletePlugin = require('./antidelete');
-const emojiDlPlugin = require('./emoji_dl');
-const onceDlPlugin = require('./once_dl');
-const antilinkPlugin = require('./antilink');
-const welcomePlugin = require('./welcome');
+// const antiDeletePlugin = require('./antidelete');
+// const emojiDlPlugin = require('./emoji_dl');
+// const onceDlPlugin = require('./once_dl');
+// const antilinkPlugin = require('./antilink');
+// const welcomePlugin = require('./welcome');
 const cmd = require('./cmd');
 const Group = require('./group');
   const images = [
